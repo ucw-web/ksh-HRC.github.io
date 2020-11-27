@@ -10,7 +10,7 @@ html{
 .home{
     background: url(img1.png) no-repeat;
     background-position: 75% 25%;
-    max-height: 100vh;
+    height: 80vh;
     width: 100%;
     min-height: 500px;
     background-size: contain;
@@ -18,27 +18,29 @@ html{
     display: flex;
 }
 .logo .hrc-logo{
-    margin: 10px 20px 0 20px;
-    display: inline-block;
+    margin: 10px 20px;
+    display: inline;
+    float: left;
 }
 .container-fluid{
     padding: 0;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .home .container-fluid .row{
-    margin: 100px 0 0 0;
+    margin: 65px auto;
     text-align: center;
 }
 #parag-c{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
     padding-left: 0;
 }
 .column-left{
     float: left;
+    display: inline;
 }
 .parag{
     margin: 0;
@@ -99,7 +101,7 @@ html{
         border-radius: 10px 10px 10px 10px;
     }
     .form-c2{
-        width: 50vw;
+        width: 70vw;
     }
 }
 @media screen and (min-width: 620px) {
@@ -124,5 +126,3 @@ html{
         width: 30vw;
     }
 }
-
-
