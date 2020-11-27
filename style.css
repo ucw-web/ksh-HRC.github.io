@@ -23,7 +23,7 @@ html{
 }
 .container-fluid{
     padding: 0;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .home .container-fluid .row{
     margin: 100px 0 0 0;
@@ -34,12 +34,11 @@ html{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     padding-left: 0;
 }
 .column-left{
     float: left;
-    display: inline;
 }
 .parag{
     margin: 0;
