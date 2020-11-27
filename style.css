@@ -10,7 +10,8 @@ html{
 .home{
     background: url(img1.png) no-repeat;
     background-position: 75% 25%;
-    height: 80vh;
+    height: 100vh;
+    max-height: 75vh;
     width: 100%;
     min-height: 500px;
     background-size: contain;
