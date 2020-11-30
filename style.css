@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
 }
 .home{
     background: url(img1.png) no-repeat;
-    background-position: 75% 25%;
-    height: 80vh;
+    background-position: 75% 30%;
+    height: 84vh;
     width: 100%;
-    min-height: 500px;
     background-size: contain;
     background-attachment: fixed;
     display: flex;
@@ -25,13 +26,14 @@ html{
     margin-top: 150px;
 }
 .home .container-fluid .row{
-    margin: 80px 0 40px 0;
+    margin: 100px 0 0 0;
+    text-align: center;
 }
 #parag-c{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding-left: 0;
 }
@@ -44,11 +46,11 @@ html{
     border-radius: 2.5px 10px 10px 2.5px;
 }
 #parag-d{
-    padding-right: 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
 }
 .form-heading{
     font-size: 20px;
@@ -78,7 +80,7 @@ html{
 }
 .btn-sub:hover:focus{
     color: white;
-    background-color:  rgb(92, 92, 90);
+    background-color:  rgb(185, 185, 175);
 }
 .btn-sub:focus{
     outline: 0 !important;
@@ -94,7 +96,7 @@ html{
         border-radius: 10px 10px 10px 10px;
     }
     .form-c2{
-        width: 70vw;
+        width: 50vw;
     }
 }
 @media screen and (min-width: 620px) {
@@ -119,3 +121,5 @@ html{
         width: 30vw;
     }
 }
+
+
