@@ -32,9 +32,9 @@ html{
 #parag-c{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-end;
     padding-left: 0;
 }
 .column-left{
