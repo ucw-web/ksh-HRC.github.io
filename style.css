@@ -27,14 +27,14 @@ html{
     margin-top: 150px;
 }
 .home .container-fluid .row{
-    margin: 60px 0 50px 0;
+    margin: 80px 0 40px 0;
 }
 #parag-c{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    align-items: flex-end;
+    align-items: center;
     padding-left: 0;
 }
 .parag{
