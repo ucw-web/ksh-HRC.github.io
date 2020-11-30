@@ -27,7 +27,7 @@ html{
     margin-top: 150px;
 }
 .home .container-fluid .row{
-    margin: 50px auto;
+    margin: 60px 0 50px 0;
 }
 #parag-c{
     display: flex;
@@ -36,9 +36,6 @@ html{
     flex-wrap: nowrap;
     align-items: flex-end;
     padding-left: 0;
-}
-.column-left{
-    float: left;
 }
 .parag{
     margin: 0;
@@ -51,7 +48,6 @@ html{
 #parag-d{
     padding-right: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
