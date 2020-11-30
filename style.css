@@ -80,7 +80,7 @@ html{
 }
 .btn-sub:hover:focus{
     color: white;
-    background-color:  rgb(185, 185, 175);
+    background-color:  rgb(122, 122, 116);
 }
 .btn-sub:focus{
     outline: 0 !important;
@@ -97,6 +97,9 @@ html{
     }
     .form-c2{
         width: 50vw;
+    }
+    .btn-sub{
+        float: left;
     }
 }
 @media screen and (min-width: 620px) {
