@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
 }
 html{
     scroll-behavior: smooth;
@@ -80,7 +78,7 @@ html{
 }
 .btn-sub:hover:focus{
     color: white;
-    background-color:  rgb(185, 185, 175);
+    background-color:  rgb(92, 92, 90);
 }
 .btn-sub:focus{
     outline: 0 !important;
