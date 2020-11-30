@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 html{
+    height: 100vh;
     scroll-behavior: smooth;
 }
 .home{
