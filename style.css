@@ -39,7 +39,6 @@ html{
 }
 .column-left{
     float: left;
-    display: inline;
 }
 .parag{
     margin: 0;
