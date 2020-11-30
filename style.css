@@ -10,14 +10,14 @@ html{
 .home{
     background: url(img1.png) no-repeat;
     background-position: 75% 30%;
-    height: 84vh;
+    height: 80vh;
     width: 100%;
     background-size: contain;
     background-attachment: fixed;
     display: flex;
 }
 .logo .hrc-logo{
-    margin: 10px 20px;
+    margin: 10px 15px;
     display: inline;
     float: left;
 }
